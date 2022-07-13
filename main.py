@@ -4,8 +4,6 @@ from aiogram import Bot, Dispatcher, executor, types
 import aiogram.utils.markdown as fmt
 from aiogram.dispatcher.filters import Text
 
-bot = Bot(token="5244928426:AAG89A2EAvyif48BJpxviAlqQstAjV6dMHg")
-
 dp = Dispatcher(bot)
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
